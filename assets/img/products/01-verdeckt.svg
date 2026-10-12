@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none" role="img" aria-label="Verdeckte Schutzweste">
+<g stroke="#8d97a1" stroke-width="1" opacity=".35"><path d="M20 470H380M20 30H380" stroke-dasharray="2 6"/></g>
+<path d="M156,52 L126,56 Q114,120 84,156 L86,404 Q200,432 314,404 L316,156 Q286,120 274,56 L244,52 Q200,124 156,52 Z" stroke="#e6e9ec" stroke-width="1.6" stroke-linejoin="round" /><path d="M86 250H60M314 250H340M86 300H60M314 300H340" stroke="#e6e9ec" stroke-width="1.2"/><path d="M110 150 Q200 175 290 150" stroke="#8d97a1" stroke-dasharray="3 4"/><text x="345" y="275" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="9" fill="#8d97a1">STRAP</text><g stroke="#f2b300" stroke-width="1"><path d="M86 430V444M314 430V444M86 437H314"/></g>
+<text x="200" y="434" font-family="IBM Plex Mono, monospace" font-size="9" fill="#f2b300" text-anchor="middle" letter-spacing="1"></text>
+<g font-family="IBM Plex Mono, monospace" font-size="10" fill="#8d97a1" letter-spacing="1.5">
+<text x="20" y="22">01 / COVERT</text><text x="380" y="22" text-anchor="end">REV.01 · PLATZHALTER</text>
+<text x="200" y="490" text-anchor="middle">PRODUKTBILD FOLGT</text></g>
+</svg>

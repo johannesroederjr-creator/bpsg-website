@@ -1,0 +1,8 @@
+# Interne Projektnotizen – nicht veröffentlichen
+CURSOR.md
+.cursor/
+
+# System
+Thumbs.db
+desktop.ini
+.DS_Store
