@@ -15,7 +15,11 @@
     var y = window.scrollY;
     var threshold = hero ? Math.max(80, hero.offsetHeight - 120) : 0;
     if (header && !body.classList.contains("page-legal")) {
-      header.classList.toggle("is-solid", y > 40 && (!hero || y > threshold * 0.12));
+      if (header.getAttribute("data-solid") === "always") {
+        header.classList.add("is-solid");
+      } else {
+        header.classList.toggle("is-solid", y > 40 && (!hero || y > threshold * 0.12));
+      }
     }
     if (stickyCta) {
       var contact = document.getElementById("kontakt") || document.getElementById("contact");
