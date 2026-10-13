@@ -1,4 +1,4 @@
-/* BPSG – Interaktionen (Entwurf v0.1) – ohne Abhängigkeiten */
+/* BPG – Interaktionen – ohne Abhängigkeiten */
 (function () {
   "use strict";
   var doc = document.documentElement;
@@ -205,17 +205,6 @@
          Siehe CURSOR.md -> Abschnitt "Formular anbinden". */
       form.classList.add("is-sent");
       form.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" });
-    });
-  }
-
-  /* ---------- Platzhalter-Markierung ein/aus ---------- */
-  var draftBtn = document.querySelector(".draft-toggle");
-  if (draftBtn) {
-    try { if (localStorage.getItem("bpsg-hide-ph") === "1") body.classList.add("hide-ph"); } catch (e) {}
-    draftBtn.addEventListener("click", function () {
-      var hidden = body.classList.toggle("hide-ph");
-      draftBtn.setAttribute("aria-pressed", hidden ? "true" : "false");
-      try { localStorage.setItem("bpsg-hide-ph", hidden ? "1" : "0"); } catch (e) {}
     });
   }
 
