@@ -228,6 +228,20 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .lang-switch a { padding: .35rem .4rem; opacity: .55; }
 .lang-switch a[aria-current="true"] { opacity: 1; font-weight: 500; }
 .lang-switch span { opacity: .35; }
+.header-phone {
+  display: inline-flex; align-items: center; gap: .55rem;
+  font-family: var(--font-mono); font-size: .78rem; font-weight: 500; letter-spacing: .04em;
+  padding: .5rem .85rem; border: 1px solid var(--line); border-radius: 100px;
+  white-space: nowrap; transition: border-color .3s var(--ease), background .3s var(--ease), color .3s var(--ease);
+}
+.header-phone svg { width: 18px; height: 18px; flex: none; color: var(--brand-gold); transition: transform .35s var(--ease); }
+.header-phone:hover { border-color: var(--ink); background: var(--paper); }
+.header-phone:hover svg { transform: scale(1.06); }
+.header-phone:focus-visible { outline: 2px solid var(--brand-gold); outline-offset: 3px; }
+@media (max-width: 899px) {
+  .header-phone { padding: .55rem; border-radius: 50%; }
+  .header-phone__text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
 .header-cta { display: none; }
 .site-header:not(.is-solid) .header-cta { --btn-bg: #fff; --btn-fg: var(--ink); --btn-bd: #fff; }
 
